@@ -5,7 +5,7 @@ import urllib
 from bs4 import BeautifulSoup
 import pandas as pd
 
-sdata = pd.read_stata(os.path.abspath('/Users/BoHai/Desktop/get_psu_from_nbs/tmpfiles/post_need.dta'), encoding='utf8')
+sdata = pd.read_stata(os.path.abspath('/Users/XXX/Desktop/get_psu_from_nbs/tmpfiles/post_need.dta'), encoding='utf8')
 sdata['postcode'] = u''
 num = sdata.shape[0]
 
@@ -25,4 +25,4 @@ for i in range(num):
     except:
         postcode = u''
     sdata.postcode[i] = postcode
-sdata.to_excel(os.path.abspath('/Users/BoHai/Desktop/get_psu_from_nbs/outfiles/post_python.xlsx'), index=False)
+sdata.to_excel(os.path.abspath('/Users/XXX/Desktop/get_psu_from_nbs/outfiles/post_python.xlsx'), index=False)

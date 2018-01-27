@@ -2,7 +2,7 @@
 import requests
 import time, os
 from bs4 import BeautifulSoup
-os.chdir('/Users/BoHai/Desktop/get_psu_from_nbs/tmpfiles')
+os.chdir('/Users/XXX/Desktop/get_psu_from_nbs/tmpfiles')
 
 # 15��:
 # http:/www.stats.gov.cn/tjsj/tjbz/tjyqhdmhcxhfdm/2015/

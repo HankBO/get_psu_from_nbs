@@ -3,7 +3,7 @@
 ** ===========================================
 clear all
 
-gl path /Users/BoHai/Desktop/get_psu_from_nbs/
+gl path /Users/XXX/Desktop/get_psu_from_nbs/
 
 insheet using $path/tmpfiles/province.txt, clear
 drop if mi(v1)
